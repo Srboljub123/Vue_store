@@ -1,0 +1,6 @@
+{
+	"appId": "com.mercatoitinerante.app",
+	"appName": "Mercato Itinerante",
+	"webDir": "dist",
+	"bundledWebRuntime": false
+}

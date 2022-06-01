@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Work+Sans&display=swap');
+
+
+#app {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left)!important;
+  color: #333;
+  height: 100%;
+}
+
+body {
+    margin: 0!important;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: "Work Sans", Sans-serif !important;
+    background: url(../img/bg.png);
+}
+.row>* {
+  padding-left: 10px !important;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #84c33f;
+}
+.shadows-font {
+  font-family: 'Shadows Into Light', cursive !important;
+  font-weight: 400;
+}
+hr {
+    background-image: url(../img/chalk-line.svg);
+    background-position: center;
+    height: 4px !important;
+    opacity: 1 !important;
+    background-color: transparent;
+}
+.content-view {
+    min-height: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 20px 15px 75px;
+    overflow: hidden;
+}
+
+.icon-mi-header {
+    filter: invert(60%) sepia(23%) saturate(7102%) hue-rotate( 
+53deg) brightness(97%) contrast(102%);
+    width: 30px;
+    height: 30px;
+}
+
+.card img {
+    object-fit: cover;
+
+}
+
+.card {
+    background: black !important
+  }
+  .card img:nth-child(1) {
+    height: 220px;
+}
+
+.card-img-overlay {
+    background: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(21, 29, 48, 0.85));
+    background: -moz-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(21, 29, 48, 0.85));
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(21, 29, 48, 0.85));
+  }
+  
+  .card-img-overlay h5 {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+  }
+  
+  .card-img-overlay p {
+    position: absolute;
+    bottom: 8px;
+    left: 10px;
+  }
+
+
+  span.woocommerce-Price-amount.amount {
+    color: white;
+    font-size: 28px;
+}
+
+
+  .price-wrap {
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 1;
+    margin: 0px;
+    position: absolute;
+    width: 100%;
+    background-color: #000000b8;
+    right: 0px;
+    top: 0px;
+}
+.span-peso-prodotto {
+  position: absolute;
+  right: 10px;
+  top: 6px;
+  color: white;
+}
+.product-actions {
+  border-top: 6px solid transparent;
+    border-image: url(../img/chalk-line.svg) 50;
+}
+
+.add-to-cart img{
+  height: 25px !important;
+}
+
+.quantity .plus, .quantity .minus {
+  font-weight: bold;
+  font-size: 22px;
+  color: #fff;
+  padding: 5px 10px;
+}
+
+.quantity-input {
+  background: transparent;
+  color: #fffeef;
+  font-family: 'Shadows into light';
+  font-size: 30px;
+  width: 100%;
+  outline: none;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.minus, .plus{
+  cursor: pointer;
+}
+
+.text-green {
+  color: #84c33f;
+}
+.nav-link:focus, .nav-link:hover {
+  color: #fff;
+}
+.btn-primary, .btn-primary.disabled, .btn-primary:disabled {
+  color: #fffeef;
+  background-color: #84c33f;
+  border-color: #84c33f;
+  font-weight: bold;
+  outline: none;
+}
+.btn-primary.disabled, .btn-primary:disabled{opacity: .5;}
+.btn-primary:hover {
+  color: #fffeef;
+  background-color: #84c33f;
+  border-color: #84c33f;
+  font-weight: bold;
+  outline: none;
+}
+.btn-primary:active {
+  color: #fffeef;
+  background-color: #84c33f;
+  border-color: #84c33f;
+  font-weight: bold;
+  outline: none;
+}
+.btn-primary:focus {
+  color: #fffeef;
+  background-color: #84c33f;
+  border-color: #84c33f;
+  font-weight: bold;
+  outline: none;
+  box-shadow: none !important;
+}
+
+.btn-variable {
+  background-color: transparent !important;
+  border: 5px solid;
+  border-image-slice: 20;
+  border-image-width: 10px;
+  border-image-repeat: repeat;
+  border-image-source: url(../img/cta.png);
+  color: #85c348;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.btn-variable:hover,
+.btn-variable:focus {
+  color: #85c348;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
